@@ -1,0 +1,1241 @@
+/* common css */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+}
+
+.clr {
+    clear: both;
+}
+
+.full_wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.mrl_10 {
+    margin-left: 10px;
+}
+
+.mrlr_10 {
+    margin-right: 10px;
+}
+
+.mrl_20 {
+    margin-left: 20px;
+}
+
+.mr_20 {
+    margin-right: 20px;
+}
+
+.mr_10 {
+    margin-top: 10px;
+}
+
+.mr-15 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+/* common css end */
+
+
+/* starting point */
+
+.bg_color {
+    background-color: #0872b9;
+}
+
+.bgp {
+    width: 50%;
+    float: left;
+}
+
+.bgp p {
+    color: #e7e7e7;
+    line-height: 32px;
+    display: inline-block;
+}
+
+.header_social {
+    width: 50%;
+    float: left;
+}
+
+.header_social a {
+    height: 32px;
+}
+
+.header_social ul {
+    text-align: right;
+}
+
+.header_social ul li a {
+    color: #e7e7e7;
+    margin-left: 25px;
+    line-height: 32px;
+    transition: all linear .5s;
+    -moz-transition: linear .5s;
+    -o-transition: linear .5s;
+    -webkit-transition: linear .5s;
+}
+
+.header_social ul li a:hover {
+    color: #353535;
+}
+
+
+/* starting point end*/
+
+
+/* menu bar  */
+
+.containeri {
+    width: 30%;
+    float: left;
+}
+
+.containeri img {
+    margin: 20px 0;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.menu ul {
+    text-align: right;
+    line-height: 80px;
+}
+
+.menu ul li a {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #353535;
+    margin-left: 20px;
+    transition: all linear .5s;
+    -moz-transition: linear .5s;
+    -o-transition: linear .5s;
+    -webkit-transition: linear .5s;
+}
+
+.menu ul li a:hover {
+    color: #0872b9;
+}
+
+.menu ul li::first-letter {
+    color: #2394e0;
+}
+
+.menu ul li .active {
+    color: #2394e0;
+}
+
+
+/* menu bar  end*/
+
+
+/* banner */
+
+.bannerbg {
+    background: url(../img/Beatles.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.bannerbg::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: #00000060;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.banner_brif {
+    text-align: right;
+    position: relative;
+}
+
+.banner_brif h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-top: 88px;
+    font-size: 30px;
+    color: #e7e7e7;
+    text-transform: uppercase;
+}
+
+.banner_brif h2 {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 40px;
+    color: #e7e7e7;
+    text-transform: uppercase;
+}
+
+.banner_brif p {
+    padding-top: 30px;
+    padding-left: 500px;
+    color: #e7e7e7;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.banner_brif a {
+    right: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #e7e7e7;
+    border: 1px solid white;
+    line-height: 30px;
+    padding: 0 16px;
+    margin-left: 16px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    transition: all linear .5s;
+    -moz-transition: linear .5s;
+    -o-transition: linear .5s;
+    -webkit-transition: linear .5s;
+}
+
+.banner_brif a:hover {
+    background: #0872b9;
+    border-color: #0872b9;
+}
+
+
+/* banner end*/
+
+
+/* about us  */
+
+.part3_aboutus>p {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 60px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.part3_aboutus>p::after {
+    content: '';
+    width: 50px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 420px;
+}
+
+.part3_aboutus>p::before {
+    content: '';
+    width: 3px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 492px;
+}
+
+.part3_aboutus>p span {
+    position: relative;
+}
+
+.part3_aboutus>p span::after {
+    content: '';
+    width: 2px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 67px;
+}
+
+.part3_aboutus>p span::before {
+    content: '';
+    width: 1px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 62px;
+}
+
+.aboutusimg {
+    width: 380px;
+    height: 265px;
+    margin-top: 40px;
+    float: left;
+}
+
+.aboutbrif {
+    margin-top: 40px;
+    width: 540px;
+    float: left;
+}
+
+.aboutbrif p {
+    padding-left: 10px;
+    margin-top: 35px;
+    font-size: 13px;
+    line-height: 24px;
+    position: relative;
+}
+
+.last_p {
+    position: absolute;
+    top: -10px;
+}
+
+
+/* about us  end */
+
+.Our_Services_box1 {
+    position: relative;
+    transition: all linear .3s;
+    -moz-transition: linear .3s;
+    -o-transition: linear .3s;
+    -webkit-transition: linear .3s;
+}
+
+.Our_Services_box1:hover {
+    -webkit-box-shadow: 10px 9px 13px 0px rgba(168, 159, 168, 0.89);
+    -moz-box-shadow: 10px 9px 13px 0px rgba(168, 159, 168, 0.89);
+    box-shadow: 10px 9px 13px 0px rgba(168, 159, 168, 0.89);
+}
+
+.Our_Services>p {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.Our_Services>p::after {
+    content: '';
+    width: 50px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 400px;
+}
+
+.Our_Services>p::before {
+    content: '';
+    width: 3px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 485px;
+}
+
+.Our_Services>p span {
+    position: relative;
+}
+
+.Our_Services>p span::after {
+    content: '';
+    width: 2px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 67px;
+}
+
+.Our_Services>p span::before {
+    content: '';
+    width: 1px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 62px;
+}
+
+.Our_Services_box1 {
+    width: 300px;
+    height: 167px;
+    background-color: #f1f1f1;
+    margin-top: 30px;
+    float: left;
+    position: relative;
+}
+
+.box01 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #bbb5b5;
+    background-color: #e7e5e5;
+    position: relative;
+    left: 110px;
+    top: -40px;
+    transition: all linear .5s;
+    -moz-transition: linear .5s;
+    -o-transition: linear .5s;
+    -webkit-transition: linear .5s;
+}
+
+.box01:hover {
+    background-color: rgb(9, 176, 253);
+    border: 2px solid rgb(9, 176, 253)0;
+}
+
+.box01 img {
+    margin: 23px;
+}
+
+.Our_Services_box1 h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(43, 43, 43);
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+.Our_Services_box1 p {
+    font-size: 13px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+/* Our Services End  */
+
+
+/* Our Portfolio */
+
+.Our_Portfolio>p {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.Our_Portfolio>p::after {
+    content: '';
+    width: 50px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 388px;
+}
+
+.Our_Portfolio>p::before {
+    content: '';
+    width: 3px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 465px;
+}
+
+.Our_Portfolio>p span {
+    position: relative;
+}
+
+.Our_Portfolio>p span::after {
+    content: '';
+    width: 3px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 68px;
+}
+
+.Our_Portfolio>p span::before {
+    content: '';
+    width: 3px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 59px;
+}
+
+.Our_Portfolio_Gallary {
+    transition: all linear .3s;
+    -moz-transition: linear .3s;
+    -o-transition: linear .3s;
+    -webkit-transition: linear .3s;
+}
+
+.Our_Portfolio_Gallary:hover {
+    -webkit-box-shadow: 1px -1px 19px 0px rgba(168, 159, 168, 0.89);
+    -moz-box-shadow: 1px -1px 19px 0px rgba(168, 159, 168, 0.89);
+    box-shadow: 1px -1px 19px 0px rgba(168, 159, 168, 0.89);
+}
+
+.Our_Portfolio_box1 {
+    width: 220px;
+    height: 540px;
+    margin-top: 30px;
+    float: left;
+}
+
+.Our_Portfolio_box2 {
+    width: 220px;
+    height: 540px;
+    margin-top: 30px;
+    float: left;
+}
+
+.Our_Portfolio_box3 {
+    width: 220px;
+    height: 220px;
+    float: left;
+    position: relative;
+}
+
+.ji {
+    width: 220px;
+    height: 220px;
+    background: url(../icon/Beatlespr-icon.png) rgba(0, 0, 0, 0.479) no-repeat center;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all ease-in-out .4s;
+    -moz-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
+    -webkit-transition: ease-in-out .4s;
+}
+
+.ji:hover {
+    opacity: 1;
+}
+
+.Our_Portfolio_box4 {
+    width: 220px;
+    height: 300px;
+    background: red;
+    float: left;
+    position: relative;
+}
+
+.ki {
+    width: 220px;
+    height: 300px;
+    position: absolute;
+    background: url(../icon/Beatlespr-icon.png) rgba(0, 0, 0, 0.479) no-repeat center;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transition: all ease-in-out .4s;
+    -moz-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
+    -webkit-transition: ease-in-out .4s;
+}
+
+.ki:hover {
+    opacity: 1;
+}
+
+
+/* Our Portfolio end */
+
+
+/* Our Team  */
+
+.Our_Team>p {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.Our_Team>p::after {
+    content: '';
+    width: 50px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 418px;
+}
+
+.Our_Team>p::before {
+    content: '';
+    width: 3px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 485px;
+}
+
+.Our_Team>p span {
+    position: relative;
+}
+
+.Our_Team>p span::after {
+    content: '';
+    width: 2px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 67px;
+}
+
+.Our_Team>p span::before {
+    content: '';
+    width: 1px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 62px;
+}
+
+.Our_Team_member_1 {
+    width: 220px;
+    height: 270px;
+    background: url(../img/Beatles-member1.jpg) no-repeat;
+    margin-top: 30px;
+    float: left;
+    position: relative;
+    transition: all linear .4s;
+    -moz-transition: linear .4s;
+    -o-transition: linear .4s;
+    -webkit-transition: linear .4s;
+}
+
+.Our_Team_member_1:hover {
+    -webkit-box-shadow: 2px 3px 13px 0px rgba(71, 71, 71, 0.79);
+    -moz-box-shadow: 2px 3px 13px 0px rgba(71, 71, 71, 0.79);
+    box-shadow: 2px 3px 13px 0px rgba(71, 71, 71, 0.79);
+}
+
+.Our_Team_member_box {
+    width: 80px;
+    height: 270px;
+    background: red;
+    position: absolute;
+    right: 20px;
+    background: rgba(68, 68, 68, 0.658);
+    opacity: 0;
+    transition: all linear .4s;
+    -moz-transition: linear .4s;
+    -o-transition: linear .4s;
+    -webkit-transition: linear .4s;
+    overflow: hidden;
+}
+
+.Our_Team_member_box:hover {
+    opacity: 1;
+    right: 0;
+}
+
+.Our_Team_member_box ul {
+    margin-top: 20px;
+}
+
+.Our_Team_member_box ul li {
+    width: 40px;
+    height: 40px;
+    margin-top: 12px;
+    margin-left: 15px;
+    border: white solid 2px;
+    border-radius: 50%;
+    position: relative;
+    transition: all ease-in-out .4s;
+    -moz-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
+    -webkit-transition: ease-in-out .4s;
+}
+
+.Our_Team_member_box ul li:hover {
+    background: rgb(0, 193, 252);
+    border: rgb(0, 193, 252) solid 2px;
+}
+
+.Our_Team_member_box ul li a {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    top: 6px;
+    left: 14px;
+}
+
+.Our_Team_member_1 h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    transition: all ease-in-out .4s;
+    -moz-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
+    -webkit-transition: ease-in-out .4s;
+}
+
+.Our_Team_member_1 h4:hover {
+    color: #5bc5f4;
+}
+
+.Our_Team_member_1 p {
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 300px;
+    left: 60px;
+}
+
+.Our_Team_member_10 {
+    width: 220px;
+    height: 270px;
+    background: url(../img/Beatles-Recovered-Recovered02.jpg) no-repeat;
+    margin-top: 30px;
+    float: left;
+    position: relative;
+    transition: all ease-in-out .4s;
+    -moz-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
+    -webkit-transition: ease-in-out .4s;
+}
+
+.Our_Team_member_10:hover {
+    -webkit-box-shadow: 2px 3px 13px 0px rgba(71, 71, 71, 0.79);
+    -moz-box-shadow: 2px 3px 13px 0px rgba(71, 71, 71, 0.79);
+    box-shadow: 2px 3px 13px 0px rgba(71, 71, 71, 0.79);
+}
+
+.Our_Team_member_10 h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    transition: all ease-in-out .4s;
+    -moz-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
+    -webkit-transition: ease-in-out .4s;
+}
+
+.Our_Team_member_10 h4:hover {
+    color: #5bc5f4;
+}
+
+.Our_Team_member_10 p {
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 300px;
+    left: 60px;
+}
+
+.Our_Team_member_20 {
+    width: 220px;
+    height: 270px;
+    background: url(../img/Beatlesmember3.jpg) no-repeat;
+    margin-top: 30px;
+    float: left;
+    position: relative;
+    transition: all ease-in-out .4s;
+    -moz-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
+    -webkit-transition: ease-in-out .4s;
+}
+
+.Our_Team_member_20:hover {
+    -webkit-box-shadow: 2px 3px 13px 0px rgba(71, 71, 71, 0.79);
+    -moz-box-shadow: 2px 3px 13px 0px rgba(71, 71, 71, 0.79);
+    box-shadow: 2px 3px 13px 0px rgba(71, 71, 71, 0.79);
+}
+
+.Our_Team_member_20 h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: absolute;
+    top: 280px;
+    left: 65px;
+    transition: all ease-in-out .4s;
+    -moz-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
+    -webkit-transition: ease-in-out .4s;
+}
+
+.Our_Team_member_20 h4:hover {
+    color: #5bc5f4;
+}
+
+.Our_Team_member_20 p {
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 300px;
+    left: 60px;
+}
+
+.Our_Team_member_30 {
+    width: 220px;
+    height: 270px;
+    background: url(../img/Beatlesmember4.jpg) no-repeat;
+    margin-top: 30px;
+    float: left;
+    position: relative;
+    transition: all ease-in-out .4s;
+    -moz-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
+    -webkit-transition: ease-in-out .4s;
+}
+
+.Our_Team_member_30:hover {
+    -webkit-box-shadow: 2px 3px 13px 0px rgba(71, 71, 71, 0.79);
+    -moz-box-shadow: 2px 3px 13px 0px rgba(71, 71, 71, 0.79);
+    box-shadow: 2px 3px 13px 0px rgba(71, 71, 71, 0.79);
+}
+
+.Our_Team_member_30 h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: absolute;
+    top: 280px;
+    left: 65px;
+    transition: all ease-in-out .4s;
+    -moz-transition: ease-in-out .4s;
+    -o-transition: ease-in-out .4s;
+    -webkit-transition: ease-in-out .4s;
+}
+
+.Our_Team_member_30 h4:hover {
+    color: #5bc5f4;
+}
+
+.Our_Team_member_30 p {
+    font-size: 14px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 300px;
+    left: 60px;
+}
+
+
+/* Our Team  End */
+
+
+/* Testimonial */
+
+.Testimonial>p {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.Testimonial>p::after {
+    content: '';
+    width: 55px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 407px;
+}
+
+.Testimonial>p::before {
+    content: '';
+    width: 3px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 473px;
+}
+
+.Testimonial>p span {
+    position: relative;
+}
+
+.Testimonial>p span::after {
+    content: '';
+    width: 5px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 62px;
+}
+
+.Testimonial>p span::before {
+    content: '';
+    width: 5px;
+    border-bottom: 1px solid #0872b9;
+    position: absolute;
+    top: 30px;
+    left: 76px;
+}
+
+.Testimonial_box1 {
+    width: 460px;
+    height: 178px;
+    background-color: #f1f1f1;
+    float: left;
+    margin-top: 146px;
+    position: relative;
+    transition: all linear .5s;
+    -moz-transition: linear .5s;
+    -o-transition: linear .5s;
+    -webkit-transition: linear .5s;
+}
+
+.Testimonial_box1:hover {
+    -webkit-box-shadow: 1px -1px 19px 0px rgba(168, 159, 168, 0.89);
+    -moz-box-shadow: 1px -1px 19px 0px rgba(168, 159, 168, 0.89);
+    box-shadow: 1px -1px 19px 0px rgba(168, 159, 168, 0.89);
+}
+
+.Testimonial_box1 h5 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+    z-index: 9;
+}
+
+.Testimonial_box1 h4 {
+    color: rgb(26, 26, 26);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2px;
+    z-index: 9;
+}
+
+.Testimonial_box1 ul {
+    text-align: center;
+    color: #5bc5f4;
+    margin-top: 5px;
+}
+
+.Testimonial_box1 p {
+    color: rgb(41, 41, 41);
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Testimonial_box1_box {
+    width: 40px;
+    height: 34px;
+    background: #f1f1f1;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 210px;
+    top: -15px;
+    z-index: -1;
+}
+
+.Testimonial_box1_box_face {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    position: absolute;
+    left: 190px;
+    top: -118px;
+    z-index: -1;
+}
+
+.Testimonial_box2 {
+    width: 460px;
+    height: 178px;
+    background-color: #f1f1f1;
+    float: left;
+    margin-top: 146px;
+    position: relative;
+    transition: all linear .5s;
+    -moz-transition: linear .5s;
+    -o-transition: linear .5s;
+    -webkit-transition: linear .5s;
+}
+
+.Testimonial_box2:hover {
+    -webkit-box-shadow: 1px -1px 19px 0px rgba(168, 159, 168, 0.89);
+    -moz-box-shadow: 1px -1px 19px 0px rgba(168, 159, 168, 0.89);
+    box-shadow: 1px -1px 19px 0px rgba(168, 159, 168, 0.89);
+}
+
+.Testimonial_box2 h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+    z-index: 9;
+}
+
+.Testimonial_box2 h4 {
+    color: rgb(26, 26, 26);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2px;
+    z-index: 9;
+}
+
+.Testimonial_box2 ul {
+    text-align: center;
+    color: #5bc5f4;
+    margin-top: 5px;
+}
+
+.Testimonial_box2 p {
+    color: rgb(41, 41, 41);
+    font-size: 13px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Testimonial_box2_box {
+    width: 40px;
+    height: 34px;
+    background: #f1f1f1;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 210px;
+    top: -15px;
+    z-index: -1;
+}
+
+.Testimonial_box2_box_face {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    position: absolute;
+    left: 190px;
+    top: -118px;
+}
+
+
+/* Testimonial end */
+
+.beatles_last_part_color {
+    background-color: #353535;
+}
+
+.beatles_last_part {
+    height: 294px;
+    margin-top: 60px;
+    background: #353535;
+}
+
+.beatles_last_logo {
+    width: 240px;
+    float: left;
+}
+
+.beatles_last_logo img {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.beatles_last_logo p {
+    margin-top: 18px;
+    font-size: 13px;
+    color: white;
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+.beatles_last_logo p p {
+    margin-top: 20px;
+    font-size: 13px;
+    color: white;
+    line-height: 24px;
+}
+
+.Contact_us {
+    width: 230px;
+    float: left;
+}
+
+.Contact_us p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-top: 30px;
+    display: inline block;
+    color: white;
+    font-size: 16px;
+}
+
+.Contact_us ul {
+    margin-top: 40px;
+}
+
+.Contact_us ul li {
+    margin-bottom: 18px;
+    display: block;
+    position: relative;
+}
+
+.Contact_us ul li i {
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #5bc5f4;
+    position: absolute;
+}
+
+.Contact_us ul li span {
+    font-size: 13px;
+    color: white;
+    line-height: 18px;
+    display: block;
+    padding-left: 45px;
+}
+
+.Important_Links {
+    float: left;
+    width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Important_Links p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+    display: inline block;
+    color: white;
+    font-size: 16px;
+}
+
+.Important_Links ul {
+    float: left;
+    margin-top: 30px;
+}
+
+.Important_Links ul li {
+    width: 61px;
+    display: block;
+}
+
+.Important_Links ul li a {
+    color: white;
+    font-size: 13px;
+    line-height: 35px;
+    transition: all linear .5s;
+    -moz-transition: linear .5s;
+    -o-transition: linear .5s;
+    -webkit-transition: linear .5s;
+}
+
+.Important_Links ul li a:hover {
+    color: #5bc5f4;
+}
+
+.Flickr_Photos {
+    width: 300px;
+    float: left;
+}
+
+.Flickr_Photos p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: 30px;
+    display: inline block;
+    color: white;
+    font-size: 16px;
+}
+
+.Flickr_Photos ul {
+    margin-top: 30px;
+}
+
+.Flickr_Photos ul li {
+    margin-bottom: 15px;
+    float: left;
+}
+
+
+/* beatles last part End */
+
+.Copyrigh_color {
+    background-color: #555555;
+}
+
+.Copyright p {
+    color: white;
+    text-align: center;
+    line-height: 24px;
+    font-size: 13px;
+}
+
+.Copyright p a {
+    color: white;
+    font-weight: 500;
+    transition: all linear .5s;
+    -moz-transition: linear .5s;
+    -o-transition: linear .5s;
+    -webkit-transition: linear .5s;
+}
+
+.Copyright p a:hover {
+    color: #5bc5f4;
+}
